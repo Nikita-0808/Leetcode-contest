@@ -23,8 +23,10 @@ public class Solution {
     }
 }
 
+# Note:- Time Complexity = O(m*n) and Space Complexity = O(1)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Question 2. 
-Leetcode question no. 3143 - 
+Leetcode question no. 3143 - Maximum Points Inside the Square
+https://leetcode.com/problems/maximum-points-inside-the-square/description/
