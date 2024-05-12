@@ -1,0 +1,24 @@
+Question 1.
+Leetcode Question no. 3146 - Permutation Difference between Two Strings
+https://leetcode.com/problems/permutation-difference-between-two-strings/
+
+class Solution {
+    public int findPermutationDifference(String s, String t) {
+        int diff =0;
+        HashMap<Character, Integer> hm = new HashMap<>();
+        for(int i=0; i<s.length(); i++){
+            hm.put(s.charAt(i), i);
+        }
+        
+        for(int i=0; i<t.length(); i++){
+            int a = hm.get(t.charAt(i));
+            diff += Math.abs( a-i);
+        }
+        return diff;
+    }
+}
+
+Note :- Time Complexity = O(n) and Space Complexity = O()
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
